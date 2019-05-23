@@ -1,3 +1,0 @@
-﻿  Switch.cpp
-c:\users\admin\source\repos\misha folder\switch\switch\switch.cpp(17): warning C4566: character represented by universal-character-name '\u9F20' cannot be represented in the current code page (1251)
-  Switch.vcxproj -> C:\Users\Admin\source\repos\Misha Folder\Switch\Debug\Switch.exe
