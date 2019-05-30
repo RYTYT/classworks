@@ -17,12 +17,20 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-string name;
-string surname;
-string country;
-string profession;
-int age;
-string hobby;
+    string Mname[5] = { "Аарон", "Орландо", "Рамзес", "Юлий", "Иван" };
+    string Fname[5] = { "Беатрис", "Вероника", "Изабелла", "Яна", "Астрид" };
+    string Msurname[5] = { "Победитель", "Кендри", "Цениров", "Прилод", "Шанаров" };
+    string Fsurname[5] = { "Некрона", "Канарка", "Цепик", "Велертина", "Зелемляна" };
+    string country[5] = { "Украина", "Юганда", "Италия", "Китай", "США" };
+    string profession[5] = { "Адвокат", "Бармен", "Диджей", "Хирург", "Программист" };
+    int age[5] = { 55, 32, 15, 19, 28 };
+    string hobby[5] = { "Нравится играть на музыкальных инструментах.", "Увлекается написанием стихов и рисованием.", " Любит разгадывать кроссворды.", "Занимается дайвингом и сёрфингом.", "Обожает киберспорт и блогинг." };
+    int random;
+    int gender;
+    string textOnBrowser;
+
+private slots:
+void on_pushButton_clicked();
 
 private:
     Ui::MainWindow *ui;

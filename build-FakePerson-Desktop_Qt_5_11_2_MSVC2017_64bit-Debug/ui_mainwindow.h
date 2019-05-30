@@ -38,28 +38,28 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(589, 387);
+        MainWindow->resize(600, 400);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         textBrowser = new QTextBrowser(centralWidget);
         textBrowser->setObjectName(QStringLiteral("textBrowser"));
-        textBrowser->setGeometry(QRect(240, 20, 300, 300));
+        textBrowser->setGeometry(QRect(270, 20, 300, 300));
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
         pushButton->setGeometry(QRect(60, 60, 100, 30));
         pushButton_2 = new QPushButton(centralWidget);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
-        pushButton_2->setGeometry(QRect(60, 270, 100, 30));
+        pushButton_2->setGeometry(QRect(30, 290, 100, 30));
         pushButton_3 = new QPushButton(centralWidget);
         pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
-        pushButton_3->setGeometry(QRect(30, 280, 100, 30));
+        pushButton_3->setGeometry(QRect(80, 300, 100, 30));
         pushButton_4 = new QPushButton(centralWidget);
         pushButton_4->setObjectName(QStringLiteral("pushButton_4"));
-        pushButton_4->setGeometry(QRect(80, 290, 100, 30));
+        pushButton_4->setGeometry(QRect(70, 270, 100, 30));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 589, 21));
+        menuBar->setGeometry(QRect(0, 0, 600, 21));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
@@ -77,9 +77,9 @@ public:
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "FakePerson", nullptr));
         pushButton->setText(QApplication::translate("MainWindow", "\320\241\320\263\320\265\320\275\320\265\321\200\320\270\321\200\320\276\320\262\320\260\321\202\321\214", nullptr));
-        pushButton_2->setText(QApplication::translate("MainWindow", "PushButton", nullptr));
-        pushButton_3->setText(QApplication::translate("MainWindow", "PushButton", nullptr));
-        pushButton_4->setText(QApplication::translate("MainWindow", "PushButton", nullptr));
+        pushButton_2->setText(QApplication::translate("MainWindow", "\320\240\320\265\320\267\320\265\321\200\320\262\320\275\320\260\321\217 \320\272\320\275\320\276\320\277\320\272\320\260", nullptr));
+        pushButton_3->setText(QApplication::translate("MainWindow", "\320\233\320\270\321\210\320\275\321\217\321\217 \320\272\320\275\320\276\320\277\320\272\320\260", nullptr));
+        pushButton_4->setText(QApplication::translate("MainWindow", "\320\227\320\260\320\277\320\260\321\201\320\275\320\260\321\217 \320\272\320\275\320\276\320\277\320\272\320\260", nullptr));
     } // retranslateUi
 
 };
